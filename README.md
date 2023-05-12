@@ -4,7 +4,7 @@ Use C to implement JPEG compression.
 
 ## Block diagram
 
-![image]()
+![image](Blockdiagram.png)
 
 ## Implementation Detail
 
