@@ -9,4 +9,4 @@ Use C to implement JPEG compression.
 ## Implementation Detail
 
 The implementation detail is in the report folder
-"# repository" 
+
