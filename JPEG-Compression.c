@@ -993,11 +993,11 @@ int main(int argc, char **argv){
 	int W = bmpheader.width;
 
 	ImgRGB **data_RGB = malloc_2D_ImgRGB(H,W);
-    ImgYCbCr **data_YCbCr = malloc_2D_ImgYCbCr(H/8,W/8);
-    ImgDCT **data_DCT = malloc_2D_ImgDCT(H/8,W/8);
-    ImgQUAN **data_QUAN = malloc_2D_ImgQUAN(H/8,W/8);
-    ImgZigZag **data_ZigZag = malloc_2D_ImgZigZag(H/8,W/8);
-    ImgRLE **data_RLE = malloc_2D_ImgRLE(H/8,W/8);
+        ImgYCbCr **data_YCbCr = malloc_2D_ImgYCbCr(H/8,W/8);
+        ImgDCT **data_DCT = malloc_2D_ImgDCT(H/8,W/8);
+        ImgQUAN **data_QUAN = malloc_2D_ImgQUAN(H/8,W/8);
+        ImgZigZag **data_ZigZag = malloc_2D_ImgZigZag(H/8,W/8);
+        ImgRLE **data_RLE = malloc_2D_ImgRLE(H/8,W/8);
 
 	//skip paddings at the end of each image line
 	int skip = (4-W*3%4);
