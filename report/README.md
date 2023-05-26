@@ -127,7 +127,7 @@ for(c=0;c<8;c++){
 - Judge u and v in 3 situations  
   ![image](https://user-images.githubusercontent.com/128220508/226192705-7482204d-96fa-47f7-b5d4-fb2bfe8500dc.png)
 
-````js
+```js
 void DCT(ImgYCbCr **data_YCbCr, ImgDCT **data_DCT, int H, int W){
     for(i=0;i<H;i++){
         for(j=0;j<W;j++){
