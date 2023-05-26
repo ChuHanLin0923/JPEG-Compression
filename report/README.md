@@ -164,7 +164,7 @@ void DCT(ImgYCbCr **data_YCbCr, ImgDCT **data_DCT, int H, int W){
         }
     }
 }
-
+```
 
 ```js
 for(k=0;k<8;k++){
