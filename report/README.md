@@ -172,7 +172,7 @@ for(k=0;k<8;k++){
         printf("%3.3f ",data_DCT[0][0].Y[k][l]);
  		}
 }
-````
+```
 
 #### Print data_DCT[0][0].Y for example
 
