@@ -165,7 +165,7 @@ void DCT(ImgYCbCr **data_YCbCr, ImgDCT **data_DCT, int H, int W){
     }
 }
 ```
-
+#### Print data_DCT[0][0].Y for example
 ```js
 for(k=0;k<8;k++){
     for(l=0;l<8;l++){
@@ -173,8 +173,6 @@ for(k=0;k<8;k++){
  		}
 }
 ```
-
-#### Print data_DCT[0][0].Y for example
 
 ![image](https://user-images.githubusercontent.com/128220508/226196159-f0331103-991d-4290-b141-a737700a54d7.png)
 
